@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+header h2{
+    color: #fff;
+    font-weight: 700;
+    font-size:x-large
+}
+header .header-main{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+header .left-header {
+    width: 56%; 
+    color: #afb9c1;
+}
+header .right-header{
+    padding-right: 20%;
+}
+header .right-header p{
+    color: #fff;
+    text-decoration: underline;
+}
+header .nav-title{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+section.main-sec{
+    text-align: center;
+    margin-bottom: 150px;
+}
+section.main-sec h1{
+    margin-top: 100px;
+    font-weight: 300;
+}
+section.main-sec p{
+    width: 42% ;
+    margin: 15px auto 30px;
+    font-size:20px;
+    font-weight: 200;
+    color: #5e5e5e;
+}
+section.cards-sec{
+    background-color: #f6f9fc;
+}
+section.cards-sec .row{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.cards-sec .main-card{
+    padding: 0;
+    margin-bottom: 40px;
+    border: 1px solid #c8d3db;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+section.cards-sec .main-card .dog{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #4c4c4c;
+    color: #c8d3db;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    height: 200px;
+    padding-top:90px;
+    width:100%
+}
+section.cards-sec .main-card p{
+    margin:20px 15px;
+}
+section.cards-sec .main-card .footer-card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px ;
+}
+section.cards-sec .main-card .footer-card .btn{
+    margin: 18px 0;
+    font-size: small;
+}
+section.cards-sec .main-card .footer-card p{
+    color: #6c757d;
+    font-weight: 400;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: #fefefe;
+}
