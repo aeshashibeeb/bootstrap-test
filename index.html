@@ -10,13 +10,13 @@
 <body>
     <header id="top">
         <div>
-            <div class="bg-dark p-4">
-                <div class="header-main">
-                    <div class="left-header">
+            <div class="bg-dark p-4 container-fluid">
+                <div class="header-main row">
+                    <div class="left-header col-lg-5 col-md-5 col-sm-10">
                         <h5 class="text-white h4">About</h5>
                         <p>Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
                     </div>
-                    <div class="right-header">
+                    <div class="right-header col-lg-4 col-md-5 col-sm-10">
                         <h5 class="text-white h4">Content</h5>
                         <p>Follow on Twitter
                           <br> Like on Facebook
@@ -34,11 +34,13 @@
             </div>
           </nav>
     </header>
-    <section class="main-sec">
+    <section class="main-sec row">
         <h1>Album example</h1>
-        <p>Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <button class="btn btn-primary">Main call to action</button>
-        <button class="btn btn-secondary">Secondary action</button>
+        <p class="col-lg-5 col-md-9 col-sm-10">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <div>
+          <button class="btn btn-primary">Main call to action</button>
+          <button class="btn btn-secondary">Secondary action</button>
+        </div>
 
     </section>
     <section class="cards-sec p-5">
@@ -114,11 +116,11 @@
       </div>
 
     </section>
-    <footer>
-     <p>Album example is © Bootstrap, but please download and     customize it for yourself!<br>
+    <footer class="row">
+     <p class="col-lg-5 col-md-5 col-sm-10">Album example is © Bootstrap, but please download and     customize it for yourself!<br>
       New to Bootstrap? <a href="#">Visit the homepage</a>or read our <a href="#">getting started guide.</a>
      </p>
-     <a href="#top">Back to top</a>
+     <a href="#top" class="col-lg-5 col-md-5 col-sm-10">Back to top</a>
     </footer>
 </body>
 </html>

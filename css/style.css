@@ -7,7 +7,7 @@ header h2{
     font-size:x-large
 }
 header .header-main{
-    width: 88%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
@@ -18,7 +18,7 @@ header .left-header {
     color: #afb9c1;
 }
 header .right-header{
-    padding-right: 20%;
+    /* padding-right: 20%; */
 }
 header .right-header p{
     color: #fff;
@@ -38,7 +38,7 @@ section.main-sec h1{
     font-weight: 300;
 }
 section.main-sec p{
-    width: 42% ;
+    /* width: 42% ; */
     margin: 15px auto 30px;
     font-size:20px;
     font-weight: 200;
