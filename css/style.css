@@ -17,9 +17,6 @@ header .left-header {
     width: 56%; 
     color: #afb9c1;
 }
-header .right-header{
-    /* padding-right: 20%; */
-}
 header .right-header p{
     color: #fff;
     text-decoration: underline;
